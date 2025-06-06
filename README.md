@@ -4,18 +4,19 @@
 
 主要功能是将pdf类的书籍进行翻译，现可以将pdf翻译成pdf和markdown格式。
 
-***在第一版的功能上增加了可视化功能。
+**在第一版的功能上增加了可视化功能。**
 
 
 
 ## 核心技术栈
 
-openai、pdfplumber、ReprotLab
+openai、pdfplumber、ReprotLab，gradio
 
 - ​	翻译功能是通过调用openai的接口进行翻译。以后也可以扩展为GLM model
 - ​	pdf的读取是通过pdfplumber库中的接口，具体例子可以参考pdftest文件夹。
 - ​	pdf写入是通过ReportLab 库的接口，涉及到文件字体和排版。
 - ​	markdown的写入是直接通过文件读取进行的，只要按照markdown的标签格式写入就能保证排版。
+- ​    使用gradio库函数，实现了可视化页面。
 
 ## 核心难点
 
