@@ -1,0 +1,10 @@
+model_type: "OpenAIModel"
+model_name: "gpt-4o-mini"
+api_key: "sk-XHspRptkSEvaD16Qg86bnC0uml6jlOWI4tzRc38iIVQmqdly"
+base_url: "https://xuedingmao.online/v1"
+
+input_file: "test/test.pdf"
+file_format: "pdf"
+#file_format: "md"
+source_language: "English"
+target_language: "Japanese"
